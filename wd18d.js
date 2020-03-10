@@ -1,31 +1,32 @@
 var btnOne = document.getElementById('one');
 
 
-class KanyeQuotes {
-    constructor(quotes) {
-        this.KanyeWisdom = quotes;
-    }
-
-    revQuotes() {
-        console.log('quotes')
-    }
-    
-    turnOn() {
-        console.log('quotes on')
-    }
-
-    turnOff() {
-        console.log('quotes off')
-    }
-   
-
+function KanyeQuotes(quotes) {
+    this.KanyeWisdom 
 }
 
-let Kquotes = new KanyeQuotes('quote'); 
-Kquotes.revQuotes;
+        
 
-Kquotes.turnOn();
-Kquotes.turnOff();
+KanyeQuotes.prototype.revQuotes = function() {
+        console.log('quotes');
+    }
+    
+    // turnOn() {
+    //     console.log('quotes on')
+    // }
+
+    // turnOff() {
+    //     console.log('quotes off')
+    // }
+   
+
+
+
+let Kquotes = new KanyeQuotes('quote'); 
+Kquotes.revQuotes();
+
+// Kquotes.turnOn();
+// Kquotes.turnOff();
 
 
 
