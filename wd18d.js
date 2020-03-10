@@ -10,12 +10,22 @@ class KanyeQuotes {
         console.log('quotes')
     }
     
+    turnOn() {
+        console.log('quotes on')
+    }
+
+    turnOff() {
+        console.log('quotes off')
+    }
    
 
 }
 
 let Kquotes = new KanyeQuotes('quote'); 
 Kquotes.revQuotes;
+
+Kquotes.turnOn();
+Kquotes.turnOff();
 
 
 
